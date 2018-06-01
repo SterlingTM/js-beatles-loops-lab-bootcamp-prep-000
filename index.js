@@ -19,6 +19,7 @@ const facts = [
   "He hated the sound of his own voice"
 ];
 
+<<<<<<< HEAD
 function johnLennonFacts(facts) {
    var n = 0;
   while (n < facts.length) {
@@ -34,6 +35,15 @@ function iLoveTheBeatles(num) {
     array.push("I love the Beatles!");
     (num++);
   } while (num < 15); {
+=======
+
+function iLoveTheBeatles(x) {
+  var array = [];
+  do {
+    array.push[x]("I love the Beatles!");
+    (x++);
+  } while (x < 15); {
+>>>>>>> 02a45a6cbeeb511a331aae082bf919415203533a
     
   }
   return array;
